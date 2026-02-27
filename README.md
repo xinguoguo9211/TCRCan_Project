@@ -52,11 +52,11 @@ CASSLGQGYEQYF,15
 CASSQDRLGKNIQYF,3
 CASSYSTDTQYF,7
 
-2. Model Training
+## 2. Model Training
 Run the training script:
 cd scripts
 python TCRCan.py
-3. Prediction (CRI Calculation)
+## 3. Prediction (CRI Calculation)
 After training, use CRI_caculate.py to compute CRI scores for all test sample files placed in ../data/test_files/.
 cd scripts
 python CRI_caculate.py
@@ -72,4 +72,5 @@ patient1,25.0
 patient2,3.5
 patient3,0.0
 
+## Pre-trained Model
 TCRCan uses the ESM-2 model facebook/esm2_t30_150M_UR50D as the base. The tokenizer and model are loaded from a local path (../Rostlab/esm2_t30_150M_UR50D in the scripts). Adjust the path if you store the model elsewhere or prefer to download directly from Hugging Face Hub (replace with "facebook/esm2_t30_150M_UR50D").
