@@ -92,4 +92,6 @@ patient2,0.6
 patient3,0.1
 
 ## Pre-trained Model
-TCRCan uses the ESM-2 model facebook/esm2_t30_150M_UR50D as the base. The tokenizer and model are loaded from a local path (../Rostlab/esm2_t30_150M_UR50D in the scripts). Adjust the path if you store the model elsewhere or prefer to download directly from Hugging Face Hub (replace with "facebook/esm2_t30_150M_UR50D").
+TCRCan uses the ESM-2 model facebook/esm2_t30_150M_UR50D as the base.
+The tokenizer and model are loaded from a local path (../Rostlab/esm2_t30_150M_UR50D in the scripts).
+Adjust the path if you store the model elsewhere or prefer to download directly from Hugging Face Hub (replace with "facebook/esm2_t30_150M_UR50D").
