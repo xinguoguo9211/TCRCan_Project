@@ -47,7 +47,7 @@ CSV file with the following columns:
 - `dataset`: Data split indicator, must be either `"train"` or `"valid"`
 
 Example format:
-```csv
+
 cdr3aa,label,dataset
 CASSLGQGYEQYF,1,train
 CASSQDRLGKNIQYF,0,valid
