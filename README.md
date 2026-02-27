@@ -59,13 +59,13 @@ Each file corresponds to one patient/sample and must be a CSV with no header, co
 
 CDR3 amino acid sequence
 
-Frequency (numeric, e.g., read count or abundance)
+Frequency (numeric)
 
-CASSLGQGYEQYF,15
+CASSLGQGYEQYF,0.05
 
-CASSQDRLGKNIQYF,3
+CASSQDRLGKNIQYF,0.06
 
-CASSYSTDTQYF,7
+CASSYSTDTQYF,0.005
 
 ## 2. Model Training
 Run the training script:
