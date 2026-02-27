@@ -12,15 +12,25 @@ TCRCan is a deep learning framework that fine-tunes the ESM-2 protein language m
 
 ## Project Structure
 TCRCan_Project/
+
 ├── data/
+
 │ ├── Example.csv # Training/validation data with 'train'/'valid' split
+
 │ └── test_files/ # Individual sample CSV files for prediction
+
 ├── models/ # Output directory for trained models (created automatically)
+
 ├── scripts/
+
 │ ├── TCRCan.py # Main training script
+
 │ └── CRI_caculate.py # CRI calculation script for test samples
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # This file
+
 
 ## Development Environment
 - Python 3.10.14
