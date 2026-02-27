@@ -50,8 +50,11 @@ Example format:
 
 cdr3aa,label,dataset
 CASSLGQGYEQYF,1,train
+
 CASSQDRLGKNIQYF,0,valid
+
 CASSYSTDTQYF,1,train
+
 Each file corresponds to one patient/sample and must be a CSV with no header, containing two columns:
 
 CDR3 amino acid sequence
@@ -59,7 +62,9 @@ CDR3 amino acid sequence
 Frequency (numeric, e.g., read count or abundance)
 
 CASSLGQGYEQYF,15
+
 CASSQDRLGKNIQYF,3
+
 CASSYSTDTQYF,7
 
 ## 2. Model Training
